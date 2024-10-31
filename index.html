@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美丽山水 - 探索自然之美</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">美丽山水</div>
+            <ul>
+                <li><a href="#scenic-spots">景点介绍</a></li>
+                <li><a href="#about">关于我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>探索自然之美</h1>
+        <p>让我们带您领略大自然的壮丽景色</p>
+    </section>
+
+    <section id="scenic-spots" class="spots-container">
+        <h2>精选景点</h2>
+        <div class="spots-grid">
+            <div class="spot-card" onclick="location.href='detail.html?spot=huangshan'">
+                <img src="https://picsum.photos/400/300" alt="黄山">
+                <h3>黄山</h3>
+                <p>云海、奇松、怪石、温泉，被誉为"天下第一奇山"</p>
+            </div>
+            <div class="spot-card" onclick="location.href='detail.html?spot=zhangjiajie'">
+                <img src="https://picsum.photos/400/301" alt="张家界">
+                <h3>张家界</h3>
+                <p>世界自然遗产，独特的石英砂岩峰林地貌</p>
+            </div>
+            <div class="spot-card" onclick="location.href='detail.html?spot=guilin'">
+                <img src="https://picsum.photos/400/302" alt="桂林">
+                <h3>桂林</h3>
+                <p>山水甲天下，喀斯特地貌的代表</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>关于我们</h2>
+        <div class="about-content">
+            <p>我们致力于为游客提供最优质的旅游体验，让每一位游客都能领略到大自然的神奇与美妙。十年来，我们始终坚持专业、真诚的服务理念，为游客创造难忘的旅行回忆。</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 美丽山水. 保留所有权利</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
